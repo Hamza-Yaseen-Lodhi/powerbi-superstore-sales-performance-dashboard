@@ -1,0 +1,26 @@
+Project Title:
+Superstore Sales Performance Dashboard using Power BI
+
+Project Type:
+Business Intelligence / Data Analytics Dashboard
+
+Project Purpose:
+The purpose of this project is to analyze Superstore sales performance and present key business insights through an interactive Power BI dashboard.
+
+Tools Used:
+Power BI, Power Query, DAX, Data Modeling, Excel/CSV Dataset
+
+Main KPIs:
+Total Sales, Total Profit, Total Orders, Total Customers, Average Discount, Average Order Value, Profit Margin, Total Quantity
+
+Main Visuals:
+KPI Cards, Monthly Sales Trend, Sales vs Profit Chart, Sales by Category, Sales by Product, Sales by Region, Payment Mode Analysis, Map Visualization, Monthly Performance Table
+
+Business Value:
+This dashboard helps users understand overall business performance, identify top-performing categories and regions, compare sales and profit trends, and analyze customer and order behavior.
+
+Skills Demonstrated:
+Power BI dashboard design, DAX measures, data cleaning, KPI reporting, data visualization, business analytics, and insight presentation.
+
+Short Interview Explanation:
+This project is a Power BI dashboard built on Superstore sales data. The main goal was to analyze business performance across sales, profit, orders, customers, categories, regions, discounts, and payment modes. I used Power Query for cleaning, DAX for KPI measures, and Power BI visuals to create an interactive dashboard. The dashboard helps identify sales trends, top categories, regional performance, and areas where profitability can be improved.

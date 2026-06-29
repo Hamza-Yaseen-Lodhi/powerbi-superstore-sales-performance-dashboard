@@ -1,0 +1,58 @@
+DAX Measures Used in Superstore Sales Dashboard
+
+Note:
+The table name used below is "Superstore". If the table name in Power BI is different, replace "Superstore" with the actual table name used in the model.
+
+1. Total Sales
+
+Total Sales = SUM(Superstore[Sales])
+
+
+2. Total Profit
+
+Total Profit = SUM(Superstore[Profit])
+
+
+3. Total Orders
+
+Total Orders = DISTINCTCOUNT(Superstore[Order ID])
+
+
+4. Total Customers
+
+Total Customers = DISTINCTCOUNT(Superstore[Customer ID])
+
+
+5. Total Quantity
+
+Total Quantity = SUM(Superstore[Quantity])
+
+
+6. Average Discount
+
+Average Discount = AVERAGE(Superstore[Discount])
+
+
+7. Average Order Value
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+
+
+8. Profit Margin
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+
+9. Sales per Customer
+
+Sales per Customer = DIVIDE([Total Sales], [Total Customers])
+
+
+10. Profit per Order
+
+Profit per Order = DIVIDE([Total Profit], [Total Orders])
+
+
+Purpose of These Measures:
+
+These measures were created to calculate the key business performance indicators used in the Power BI dashboard. They help summarize sales, profit, orders, customers, discounts, average order value, and profitability.
